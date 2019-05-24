@@ -7,7 +7,7 @@ before_install:
   - docker build -t usrnotfound/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run usrnotfound/docker-react npm run production
+  - docker run usrnotfound/docker-react npm run
 
 deploy:
   provider: elasticbeanstalk
